@@ -23,19 +23,20 @@ function App() {
   },[])
 
   console.log(">>>>>",myCountry)
-
   
+
   return (
     <>
 
       <CardList count = {myCountry}/>
-      
-      
-      
-      
+      <Header/>
+
+
+
 
     </>
   )
+  
 }
 
 export default App
